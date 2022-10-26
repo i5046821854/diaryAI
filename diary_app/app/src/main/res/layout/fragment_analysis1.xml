@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".AnalysisFragment1">
-
+    tools:context=".analysisFragment.AnalysisFragment1">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,13 +21,41 @@
             android:layout_height="0dp"
             android:layout_weight="0.25"
             android:gravity="center"
-            android:text="서비스 소개"
+            android:text="카톡 분석하기"
             android:textSize="45sp" />
 
-        <TextView
+        <Space
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.55"/>
+            android:layout_weight="0.15"/>
+        <Button
+            android:id="@+id/kakao"
+            android:layout_width="180sp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="카카오톡 열기" />
+
+        <Button
+            android:id="@+id/file"
+            android:layout_width="180sp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="파일 불러오기" />
+
+        <TextView
+            android:id="@+id/filename"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:text="파일명"
+            android:gravity="center"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -60,4 +86,5 @@
             android:layout_height="0dp"
             android:layout_weight="0.1" />
     </LinearLayout>
+
 </FrameLayout>

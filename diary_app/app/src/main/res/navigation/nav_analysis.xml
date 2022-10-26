@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/analysisFragment1"
-        android:name="edu.skku.graduation.diaryAI.AnalysisFragment1"
-        android:label="fragment_analysis1"
+        android:name="edu.skku.graduation.diaryAI.analysisFragment.AnalysisFragment1"
+        android:label="fragment_analysis2"
         tools:layout="@layout/fragment_analysis1" >
         <action
             android:id="@+id/action_analysisFragment1_to_analysisFragment2"
@@ -16,23 +16,11 @@
     </fragment>
     <fragment
         android:id="@+id/analysisFragment2"
-        android:name="edu.skku.graduation.diaryAI.AnalysisFragment2"
+        android:name="edu.skku.graduation.diaryAI.analysisFragment.AnalysisFragment2"
         android:label="fragment_analysis2"
         tools:layout="@layout/fragment_analysis2" >
         <action
-            android:id="@+id/action_analysisFragment2_to_analysisFragment3"
-            app:destination="@id/analysisFragment3" />
-        <action
             android:id="@+id/action_analysisFragment2_to_analysisFragment1"
             app:destination="@id/analysisFragment1" />
-    </fragment>
-    <fragment
-        android:id="@+id/analysisFragment3"
-        android:name="edu.skku.graduation.diaryAI.AnalysisFragment3"
-        android:label="fragment_analysis3"
-        tools:layout="@layout/fragment_analysis3" >
-        <action
-            android:id="@+id/action_analysisFragment3_to_analysisFragment2"
-            app:destination="@id/analysisFragment2" />
     </fragment>
 </navigation>

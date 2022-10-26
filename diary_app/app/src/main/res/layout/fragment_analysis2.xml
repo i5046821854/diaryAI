@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".AnalysisFragment2">
+    tools:context=".analysisFragment.AnalysisFragment2">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,39 +22,47 @@
             android:layout_height="0dp"
             android:layout_weight="0.25"
             android:gravity="center"
-            android:text="카톡 분석하기"
+            android:text="서버 전송"
             android:textSize="45sp" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.15"/>
-        <Button
-            android:id="@+id/kakao"
-            android:layout_width="180sp"
-            android:layout_height="0dp"
-            android:layout_weight="0.1"
-            android:gravity="center"
-            android:text="카카오톡 열기" />
+            android:layout_weight="0.05" />
 
-        <Button
-            android:id="@+id/file"
-            android:layout_width="180sp"
-            android:layout_height="0dp"
-            android:layout_weight="0.1"
-            android:gravity="center"
-            android:text="파일 불러오기" />
         <TextView
+            android:id="@+id/filename"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.1"
+            android:gravity="center"
             android:text="파일명"
-            android:gravity="center"/>
+            android:textSize="25sp" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_weight="0.05" />
+
+        <Button
+            android:id="@+id/server"
+            android:layout_width="180sp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="서버로 전송하기" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="0.1" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -73,10 +82,10 @@
                 android:layout_height="match_parent" />
 
             <Button
-                android:id="@+id/next"
+                android:id="@+id/home"
                 android:layout_width="120sp"
                 android:layout_height="match_parent"
-                android:text="@string/next" />
+                android:text="@string/home" />
         </LinearLayout>
 
         <Space
@@ -84,5 +93,4 @@
             android:layout_height="0dp"
             android:layout_weight="0.1" />
     </LinearLayout>
-
 </FrameLayout>

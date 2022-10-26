@@ -7,25 +7,31 @@
 
     <fragment
         android:id="@+id/resultFragment1"
-        android:name="edu.skku.graduation.diaryAI.ResultFragment1"
+        android:name="edu.skku.graduation.diaryAI.resultFragment.ResultFragment1"
         android:label="fragment_result1"
         tools:layout="@layout/fragment_result1" >
         <action
             android:id="@+id/action_resultFragment1_to_resultFragment2"
             app:destination="@id/resultFragment2" />
+        <action
+            android:id="@+id/action_resultFragment1_self"
+            app:destination="@id/resultFragment1" />
     </fragment>
     <fragment
         android:id="@+id/resultFragment2"
-        android:name="edu.skku.graduation.diaryAI.ResultFragment2"
+        android:name="edu.skku.graduation.diaryAI.resultFragment.ResultFragment2"
         android:label="fragment_result2"
         tools:layout="@layout/fragment_result2" >
         <action
             android:id="@+id/action_resultFragment2_to_resultFragment3"
             app:destination="@id/resultFragment3" />
+        <action
+            android:id="@+id/action_resultFragment2_to_resultFragment1"
+            app:destination="@id/resultFragment1" />
     </fragment>
     <fragment
         android:id="@+id/resultFragment3"
-        android:name="edu.skku.graduation.diaryAI.ResultFragment3"
+        android:name="edu.skku.graduation.diaryAI.resultFragment.ResultFragment3"
         android:label="fragment_result3"
         tools:layout="@layout/fragment_result3" >
         <action

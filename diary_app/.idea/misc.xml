@@ -3,15 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.15587529976019185" />
         <entry key="app/src/main/res/layout/activity_analyze.xml" value="0.46979166666666666" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4557291666666667" />
-        <entry key="app/src/main/res/layout/activity_result.xml" value="0.46979166666666666" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_result.xml" value="0.28159645232815966" />
         <entry key="app/src/main/res/layout/fragment_analysis1.xml" value="0.46979166666666666" />
-        <entry key="app/src/main/res/layout/fragment_analysis2.xml" value="0.46979166666666666" />
+        <entry key="app/src/main/res/layout/fragment_analysis2.xml" value="0.28159645232815966" />
         <entry key="app/src/main/res/layout/fragment_analysis3.xml" value="0.46979166666666666" />
-        <entry key="app/src/main/res/layout/fragment_result1.xml" value="0.46979166666666666" />
-        <entry key="app/src/main/res/layout/fragment_result2.xml" value="0.46979166666666666" />
-        <entry key="app/src/main/res/layout/fragment_result3.xml" value="0.46979166666666666" />
+        <entry key="app/src/main/res/layout/fragment_result1.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/fragment_result2.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/fragment_result3.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/item_recycler.xml" value="0.45901639344262296" />
+        <entry key="app/src/main/res/layout/result_item.xml" value="0.5298245614035088" />
       </map>
     </option>
   </component>
